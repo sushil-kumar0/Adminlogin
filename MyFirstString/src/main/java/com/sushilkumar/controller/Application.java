@@ -20,6 +20,16 @@ public class Application {
 
 	    @GetMapping("/page")
 	    public String showPage() {
+	    	int a=5;
+	    	int b=6;
+	    	int c= a+b;
+	     	int d = c*6;
+	    	 int e =d;
+	    	System.out.println("hello");
+	    	System.out.println("hello");
+	    	System.out.println("hello");
+	    	System.out.println("hello");
+	    	
 	        return "page";  
 	        
 	        
